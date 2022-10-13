@@ -1,0 +1,6 @@
+* An Introduction To Low Level Programming
+These notes were created for a series of lectures on low level programming for AppAcademy graduates. We approach the C programming language by first understanding a simple assembly language, in this case, 6502 assembler.
+** Motivation
+Everyone should know a little C. We will start from understanding a simple assembly language, the architecture of the (now) primitive 6502 processor and see how the C programming language revolutionized how abstractions of an instruction set can completely alter the way in which a programmer interfaces with a machine.
+This series is intended to be read by individuals with a firm understanding of modern production programming languages--in the case of AppAcademy grads, Python and JavaScript. We will not use libraries. We will not use boiler plate. Any data structure which is not contained within the C standard library (in our case, glibc), will be implemented as needed.
+This will serve as a solid foundation in approaching statically typed compiled languages. By understanding C, extensions of JS such as TS become trivial. Not just to use, but to appreciate. Enjoy!
