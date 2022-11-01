@@ -74,12 +74,12 @@ TIA_BASE_WRITE_ADDRESS = TIA_BASE_ADDRESS
 	; DO NOT CHANGE THE RELATIVE ORDERING OF REGISTERS!
     
 VSYNC       ds 1    ; $00   0000 00x0   Vertical Sync Set-Clear
-VBLANK	    ds 1    ; $01   xx00 00x0   Vertical Blank Set-Clear
-WSYNC	    ds 1    ; $02   ---- ----   Wait for Horizontal Blank
-RSYNC	    ds 1    ; $03   ---- ----   Reset Horizontal Sync Counter
-NUSIZ0	    ds 1    ; $04   00xx 0xxx   Number-Size player/missle 0
-NUSIZ1	    ds 1    ; $05   00xx 0xxx   Number-Size player/missle 1
-COLUP0	    ds 1    ; $06   xxxx xxx0   Color-Luminance Player 0
+VBLANK		ds 1	; $01   xx00 00x0   Vertical Blank Set-Clear
+WSYNC		ds 1	; $02   ---- ----   Wait for Horizontal Blank
+RSYNC		ds 1	; $03   ---- ----   Reset Horizontal Sync Counter
+NUSIZ0		ds 1	; $04   00xx 0xxx   Number-Size player/missle 0
+NUSIZ1		ds 1	; $05   00xx 0xxx   Number-Size player/missle 1
+COLUP0		ds 1	; $06   xxxx xxx0   Color-Luminance Player 0
 COLUP1      ds 1    ; $07   xxxx xxx0   Color-Luminance Player 1
 COLUPF      ds 1    ; $08   xxxx xxx0   Color-Luminance Playfield
 COLUBK      ds 1    ; $09   xxxx xxx0   Color-Luminance Background
